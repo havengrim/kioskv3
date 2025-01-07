@@ -43,3 +43,23 @@ body {
 .gradient {
   background: linear-gradient(rgba(14, 62, 151, 0.5) 50%, black);
 }
+
+@keyframes moveHeadline {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(20px); /* Moves 20px to the right */
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.animate-moving {
+  animation: moveHeadline 5s ease-in-out infinite;
+}
+
+.paused {
+  animation: none; /* Disable the animation when the element is in view */
+}
