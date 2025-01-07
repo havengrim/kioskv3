@@ -20,7 +20,7 @@ export const AdvancedBannerTop = () => {
     expanded: false,
     children: (
       <div className="inset center">
-        <h1 className="headline white">RISE 2025</h1>
+        <h1 className="headline white font-permanent">RISE 2025</h1>
       </div>
     ),
   };
