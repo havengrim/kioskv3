@@ -10,7 +10,7 @@ interface CardProps {
 
 const Card = ({ image, title, subtitle, linkText, link }: CardProps) => {
   return (
-    <div className="relative group overflow-hidden rounded-lg shadow-lg">
+    <div className="relative group overflow-hidden rounded-lg shadow-lg hover:cursor-pointer">
       <div className="absolute inset-0 bg-black bg-opacity-100 backdrop-blur-sm transition-blur duration-500 group-hover:backdrop-blur-0"></div>
       <img
         src={image}

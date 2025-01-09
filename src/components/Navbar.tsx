@@ -4,9 +4,9 @@ import images from "@/assets/images";
 
 const Navbar = () => {
   return (
-    <div className="text-3xl text-white fixed top-0 z-50 flex justify-between w-full p-6 items-center bg-transparent">
+    <div className="text-3xl text-white fixed top-0 z-50 flex justify-between w-full p-4 items-center bg-transparent">
       {/* Hamburger menu icon for mobile */}
-      <div className="bg-white p-4 rounded-full block sm:block">
+      <div className="bg-white p-2 rounded-full block sm:block">
         <IoReorderTwoOutline className="text-black text-2xl" />
       </div>
       
@@ -17,7 +17,7 @@ const Navbar = () => {
       
       {/* "Get In Touch" button */}
       <div className="hidden lg:block">
-        <Button className="bg-white text-black rounded-full">Get In Touch</Button>
+        <Button className="bg-white text-black hover:bg-gray-300 rounded-full">Get In Touch</Button>
       </div>
     </div>
   );

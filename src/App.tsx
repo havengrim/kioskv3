@@ -5,8 +5,10 @@ import 'google-fonts'
 import Navbar from "./components/Navbar";
 import StickyBar from "./components/StickyBar";
 import Sections from "./components/Sections";
-import MarqueeComponent from "./components/ui/marquee";
 import Slider from "./components/ui/slider";
+import Paragraph from "./components/ui/paragraph";
+import OverlappingCards from "./components/ui/overlappingCards";
+
 
 export default function App() {
   return (
@@ -15,8 +17,9 @@ export default function App() {
       <StickyBar />
       <AdvancedBannerTop />
       <Sections />
-      <MarqueeComponent />
       <Slider />
+      <Paragraph />
+      <OverlappingCards />
     </ParallaxProvider>
   );
 }
