@@ -9,7 +9,7 @@ const OverlappingCards = () => {
   ];
 
   return (
-    <div className="relative w-full h-screen bg-black flex items-center justify-center">
+    <div className="relative w-full h-screen bg-black flex items-center justify-center -mb-40">
       <div className="relative w-[500px] h-[400px]">
         {colors.map((color, index) => (
           <div
