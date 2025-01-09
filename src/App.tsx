@@ -6,7 +6,7 @@ import Navbar from "./components/Navbar";
 import StickyBar from "./components/StickyBar";
 import Sections from "./components/Sections";
 import Slider from "./components/ui/slider";
-import Paragraph from "./components/ui/paragraph";
+import Paragraph from "./components/ui/Paragraph";
 import OverlappingCards from "./components/ui/overlappingCards";
 
 
