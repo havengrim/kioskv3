@@ -5,17 +5,17 @@ const OverlappingCards = () => {
   const imageSources = [
     images.card1, // Card 1 Image
     images.card2, // Card 2 Image
-        images.card4, // Card 4 Image
+    images.card4, // Card 4 Image
     images.card3, // Card 3 Image
   ];
 
   return (
-    <div className="relative w-full h-screen bg-black flex items-center justify-center">
-      <div className="relative w-[600px] h-[700px]">
+    <div className="relative w-full min-h-screen bg-black flex items-center justify-center mt-60">
+      <div className="relative w-full max-w-[600px] h-[700px] sm:max-w-[500px] sm:h-[600px]">
         {imageSources.map((imageSrc, index) => (
           <div
             key={index}
-            className={`absolute w-[600px] h-[450px] rounded-lg shadow-xl transition-transform duration-500 transform cursor-pointer
+            className={`absolute w-full h-full sm:w-[500px] sm:h-[375px] rounded-lg shadow-xl transition-transform duration-500 transform cursor-pointer
               ${
                 index === 0
                   ? "-top-20 -left-40 rotate-[-15deg] hover:translate-x-10 hover:translate-y-10"
@@ -38,7 +38,6 @@ const OverlappingCards = () => {
           </div>
         ))}
       </div>
-      sdsdsds
     </div>
   );
 };
