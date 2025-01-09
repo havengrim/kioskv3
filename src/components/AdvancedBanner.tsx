@@ -19,7 +19,7 @@ export const AdvancedBannerTop = () => {
     shouldAlwaysCompleteAnimation: true,
     expanded: false,
     children: (
-      <div className="inset center -mt-40">
+      <div className="inset center -mt-60">
         <h1 className="headline white font-permanent">RISE 2025</h1>
       </div>
     ),
