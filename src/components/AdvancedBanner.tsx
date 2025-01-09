@@ -14,12 +14,12 @@ export const AdvancedBannerTop = () => {
   };
 
   const headline: BannerLayer = {
-    translateY: [0, 30],
-    scale: [1, 1.05, "easeOutCubic"],
+    translateY: [0, 55],
+    scale: [1, 1.35, "easeOutCubic"],
     shouldAlwaysCompleteAnimation: true,
     expanded: false,
     children: (
-      <div className="inset center">
+      <div className="inset center -mt-40">
         <h1 className="headline white font-permanent">RISE 2025</h1>
       </div>
     ),
